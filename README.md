@@ -1,2 +1,4 @@
 # java-calculator
-Calculator.java Készíts egy Calculator nevű osztályt, amely két parancssori paramétert vár. Az első paraméterben számok vannak vesszővel elválasztva, a második paraméter pedig egy szám (pl. java Calculator 2,3,4 10).
+Calculator.java 
+
+2.7    http://kitlei.web.elte.hu/segedanyagok/felev/2017-2018-osz/java-hun/feladatok.html
