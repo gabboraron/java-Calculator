@@ -1,22 +1,24 @@
+import java.util.Arrays;
+
 class Calculator {
     public static void main(String[] args) {
-        /*
-		//test
-        System.out.println("a megadott ertekek: ");
-        System.out.println(args[0]);
-        System.out.println("//");
-        System.out.println(args[1]);
-        System.out.println("//");
-        System.out.println(args[2]);
-        System.out.println("//");
-		*/
+
+		String[] res = args[0].split(",");
+
+		int[] resInt = new int[res.length];
 		
-		import java.util.regex.Matcher;
-		import java.util.regex.Pattern;
+		int i = 0;
+		for(String s : res) {
+			//resInt.add(Integer.parseInt(s));
+			resInt[i] = Integer.parseInt(s);
+			++i;
+		}
 		
-		String line =args[0];
-		String pattern = ",";
 		
+		for (int j : resInt) {
+            System.out.println(Integer.parseInt(j) + args[1]);
+            //System.out.println(j);
+        }
 		
     }
 }
