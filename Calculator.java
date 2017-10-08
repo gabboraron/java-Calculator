@@ -16,8 +16,8 @@ class Calculator {
 		
 		
 		for (int j : resInt) {
-            System.out.println(Integer.parseInt(j) + args[1]);
-            //System.out.println(j);
+            //System.out.println(Integer.parseInt(j) + args[1]);   //  <- fordítva
+			System.out.println(j + Integer.parseInt(args[1]));
         }
 		
     }
